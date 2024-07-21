@@ -3,7 +3,8 @@
 ---
 ### 📷 Preview
 
-![image](https://github.com/user-attachments/assets/d4f90d28-3c07-4cd6-ac25-57a6fb38cc93)
+![image](https://github.com/user-attachments/assets/134fe027-e318-4acd-94ea-221f23d7b7b2)
+
 
 
 
