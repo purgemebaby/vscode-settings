@@ -11,8 +11,7 @@
 ---
 ### 📋 Description
 
-As you can see, here is a .json file customized for your VSCode Editor. Since this is my usual code editor, I'll prolly add more settings
-related to extensions and shortcuts.
+As you can see, here is a .json file customized for your VSCode Editor.
 
 ---
 
