@@ -1,124 +1,133 @@
-// Ok so, I have a lot of settings but i'm already still working on it because I think it could be more customized. You are free to change it as you want, I hope you like it.
-
-//Extensions: Aura Theme, GitHub Copilot, Prettier, Glasslt-VSC, Icons, Error Lens, Image Preview, indent-rainbow, IntelliCode, Live Server, Pylance, Python, Python Debugger, Python Indent, Shell Syntax
-
 {
-  //python
-  "python.analysis.autoImportCompletions": true, // Enable auto import completions.
-  "python.analysis.typeCheckingMode": "off", // Show diagnostics for invalid syntax, unresolved imports, and other typechecking errors.
+	//python
+	"python.analysis.autoImportCompletions": true,
+	"python.analysis.typeCheckingMode": "basic",
 
-  //editor
-  "breadcrumbs.enabled": false, // This show a path of the file you are editing at the top of the editor (Very useless)
-  "editor.cursorBlinking": "expand", // This is the cursor animation.
-  "editor.fontSize": 14,
-  "editor.renderLineHighlight": "all",
-  "editor.smoothScrolling": true,
-  "editor.guides.bracketPairsHorizontal": "active",
-  "editor.wordWrap": "on", // Lines will break when they reach the end of the editor width cap.
-  "editor.guides.bracketPairs": false,
-  "editor.acceptSuggestionOnEnter": "off", // This will accept the suggestion when you press enter.
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.cursorStyle": "line",
-  "editor.cursorWidth": 3,
-  "editor.linkedEditing": true, // This will link the editing of the same word in the same file (like html </> tags)
-  "editor.lineNumbers": "interval",
-  "editor.insertSpaces": true, // This will insert spaces instead of tabs.
-  "editor.hover.enabled": true,
-  "editor.fontLigatures": true, // This will enable the font ligatures. It depends on the font you are using.
-  "editor.suggestSelection": "first",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.minimap.enabled": false, //Useless feature, don't need it for nothing.
-  "editor.formatOnSave": true,
-  "editor.renderControlCharacters": true,
-  "editor.renderWhitespace": "all",
-  "editor.tabSize": 4, // I use 4 cuz it's the proper way to use it in python. Change it following the syntax rules of the language you are using.
-  "editor.inlineSuggest.fontFamily": "JetBrains Mono",
-  "editor.tabCompletion": "on",
-  "editor.stickyScroll.enabled": true,
-  "editor.inlayHints.fontFamily": "JetBrains Mono",
-  "editor.scrollbar.vertical": "auto",
-  "editor.bracketPairColorization.enabled": true, // This will colorize the brackets.
-  "editor.parameterHints.enabled": false, // Enable a window that shows parameter doc and info of an object.
+	//editor
+	"breadcrumbs.enabled": false,
+	"editor.cursorBlinking": "expand",
+	"editor.fontSize": 15,
+	"editor.renderLineHighlight": "all",
+	"editor.smoothScrolling": true,
+	"editor.guides.bracketPairsHorizontal": "active",
+	"editor.wordWrap": "on",
+	"editor.guides.bracketPairs": false,
+	"editor.acceptSuggestionOnEnter": "off",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.cursorStyle": "line",
+	"editor.cursorWidth": 3,
+	"editor.linkedEditing": true,
+	"editor.lineNumbers": "interval",
+	"editor.insertSpaces": true,
+	"editor.hover.enabled": true,
+	"editor.fontWeight": "normal",
+	"editor.fontLigatures": true,
+	"editor.suggestSelection": "first",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.minimap.enabled": false,
+	"editor.formatOnSave": true,
+	"editor.renderControlCharacters": true,
+	"editor.renderWhitespace": "all",
+	"editor.tabSize": 4, // I use 4 cuz it's the proper way to use it in python. Change it following the syntax rules of the language you are using.
+	"editor.inlineSuggest.fontFamily": "CaskaydiaCove Nerd Font",
+	"editor.tabCompletion": "on",
+	"editor.stickyScroll.enabled": true,
+	"editor.inlayHints.fontFamily": "JetBrains Mono",
+	"editor.scrollbar.vertical": "auto",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.parameterHints.enabled": false,
 
-  //terminal
-  "terminal.integrated.fontSize": 16,
-  "terminal.integrated.fontFamily": "Consolas",
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.defaultProfile.osx": "bash",
-  "terminal.integrated.fontWeightBold": "normal",
-  "terminal.integrated.drawBoldTextInBrightColors": false,
-  "terminal.integrated.showExitAlert": true,
-  "workbench.settings.editor": "json",
-  "workbench.sideBar.location": "left",
-  "workbench.activityBar.iconClickBehavior": "focus",
-  "workbench.activityBar.location": "default",
-  "zenMode.hideActivityBar": false,
-  "workbench.editor.closeEmptyGroups": false,
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.iconTheme": "icons",
-  "workbench.list.smoothScrolling": true,
-  "workbench.tree.indent": 10,
-  "workbench.editor.enablePreview": false,
-  "workbench.editor.showTabs": "multiple",
-  "workbench.statusBar.visible": true,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "window.density.editorTabHeight": "default",
+	//terminal
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.defaultProfile.osx": "bash",
+	"terminal.integrated.fontWeightBold": "normal",
+	"terminal.integrated.drawBoldTextInBrightColors": false,
+	"terminal.integrated.showExitAlert": true,
 
-  //files
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 3000,
-  "files.exclude": {
-    "**/.git": false,
-    "**/.svn": true,
-    "**/LICENSE*": true,
-    "**/.hg": true,
-    "**/CVS": false,
-    "**/.DS_Store": true,
-    "**/Thumbs.db": true,
-    "**/README.md": true,
-    "**/.gitignore": true,
-    "**/.prettierignore": true
-  },
+	//workbench
+	"workbench.settings.editor": "json",
+	"workbench.sideBar.location": "left",
+	"workbench.activityBar.iconClickBehavior": "focus",
+	"zenMode.hideActivityBar": false,
+	"workbench.editor.closeEmptyGroups": false,
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.iconTheme": "icons",
+	"workbench.list.smoothScrolling": true,
+	"workbench.tree.indent": 10,
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.showTabs": "multiple",
+	"workbench.statusBar.visible": true,
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"window.density.editorTabHeight": "default",
 
-  //prettier (formmatting extension)
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "all",
-  "prettier.enable": true,
-  "prettier.printWidth": 80,
-  "prettier.useTabs": false,
-  "window.zoomLevel": -0.6,
-  "window.title": "${rootName} - ${{activeEditorShort} - (｡◕‿‿◕｡)", // This will show the name of the file you are editing at the top of the window. Edit as you wish. There are some regular expressions you can use.
-  "window.closeWhenEmpty": true,
-  "window.commandCenter": true, // Show command palette together with the window title
+	//files
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 3000,
+	"files.exclude": {
+		"**/.git": false,
+		"**/.svn": true,
+		"**/LICENSE*": true,
+		"**/.hg": true,
+		"**/CVS": false,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"**/README.md": true,
+		"**/.gitignore": true,
+		"**/.prettierignore": true
+	},
 
-  //explorer
-  "explorer.compactFolders": false,
-  "explorer.openEditors.sortOrder": "alphabetical",
-  "explorer.confirmDragAndDrop": false,
-  "explorer.decorations.colors": true,
-  "explorer.incrementalNaming": "simple",
+	//prettier (formmatting extension)
+	"prettier.singleQuote": true,
+	"prettier.trailingComma": "all",
+	"prettier.enable": true,
+	"prettier.printWidth": 80,
+	"prettier.useTabs": true,
+	"window.title": "${rootName} - ${{activeEditorShort} - (｡◕‿‿◕｡)",
+	"window.closeWhenEmpty": true,
+	"window.commandCenter": true,
 
-  //markdown
-  "markdown.preview.fontFamily": "Consolas",
-  "markdown.math.enabled": true,
+	//explorer
+	"explorer.compactFolders": false,
+	"explorer.openEditors.sortOrder": "alphabetical",
+	"explorer.confirmDragAndDrop": false,
+	"explorer.decorations.colors": true,
+	"explorer.incrementalNaming": "simple",
 
-  //scm
-  "scm.inputFontFamily": "default",
+	//markdown
+	"markdown.preview.fontFamily": "Bahnschrift",
+	"markdown.math.enabled": true,
 
-  //Notebook
-  "notebook.output.fontFamily": "Inter",
+	//scm
+	"scm.inputFontFamily": "default",
 
-  //chat
-  "chat.editor.fontFamily": "Consolas",
-  "chat.editor.fontSize": 14,
-  "chat.editor.wordWrap": "on",
+	//Notebook
+	"notebook.output.fontFamily": "CaskaydiaCove Nerd Font",
 
-  //debug
-  "debug.console.fontFamily": "Fira Code",
-  "debug.closeReadonlyTabsOnEnd": true,
-  "debug.console.wordWrap": true,
-  "debug.enableStatusBarColor": true,
-  "glassit.alpha": 235,
-  "workbench.colorTheme": "Aura Dark"
+	//chat
+	"chat.editor.fontFamily": "Jetbrains Mono",
+	"chat.editor.fontSize": 14,
+	"chat.editor.wordWrap": "on",
+
+	//debug
+	"debug.console.fontFamily": "Consolas",
+	"debug.closeReadonlyTabsOnEnd": true,
+	"debug.console.wordWrap": true,
+	"debug.enableStatusBarColor": true,
+	"glassit.alpha": 225,
+	"workbench.colorTheme": "Bearded Theme Coffee",
+	"explorer.confirmDelete": false,
+	"notebook.output.textLineLimit": 40,
+	"jupyter.askForKernelRestart": false,
+
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false
+	},
+	"window.newWindowProfile": "Default",
+	"python.createEnvironment.trigger": "off"
 }
