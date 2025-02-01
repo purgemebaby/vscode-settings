@@ -27,12 +27,12 @@ As you can see, here is a .json file customized for your VSCode Editor.
 
 ### 🗂️ Extensions and Themes 
 Here's a list with the __extensions__ I'm using right now:
-- Languages related: _Pylance_, _Python_, _Python Debugger_, _Python Indent_, _Shell syntax_.
+- Languages related: _Pylance_, _Python_, _Python Debugger_, _Python Indent_.
 - Formatter: _Prettier_.
 - Code assistement: _IntelliCode & API_, _GitHub Copilot_.
 - Better code reading: _indent-rainbow_, _Image Preview_.
 - Web: _Live Server_.
 - Others: _Error Lens_.
 
-The theme I'm using actually it's the Aura Dark Theme and [Icons](https://marketplace.visualstudio.com/items?itemName=tal7aouy.icons). For transparency, use _Glasslt-VSC_.
+The theme I'm using actually it's the Bearded Theme Coffee and [Icons](https://marketplace.visualstudio.com/items?itemName=tal7aouy.icons). For transparency, use _Glasslt-VSC_.
 
